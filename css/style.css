@@ -12,8 +12,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8 !important;
-  color: #333;
-  background-color: #f5f7fa;
+  color: black;
 }
 @media screen and (max-width: 992px) {
   body {
@@ -43,7 +42,7 @@ p {
 }
 x {
   margin-bottom: 1.5em;
-  background-color: #1a1a2e;
+  background-color: darkkhaki;
   backface-visibility: visible;
 }
 
@@ -114,7 +113,7 @@ figure figcaption {
   width: 300px;
   position: fixed;
   z-index: 1001;
-  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  background: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63));
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -129,7 +128,7 @@ figure figcaption {
     -o-transform: translateX(-300px);
     transform: translateX(-300px);
     padding-top: 4em;
-    background: #0f3460;
+    background-color: #f9bf3f;
     height: -webkit-fill-available;
     left: 0px;
   }
@@ -172,7 +171,7 @@ figure figcaption {
 #colorlib-aside #colorlib-logo a {
   display: block;
   text-align: center;
-  color: #fff;
+  color: #000;
   padding-right: 0.3em;
 }
 #colorlib-aside #colorlib-main-menu {
@@ -202,7 +201,7 @@ figure figcaption {
   letter-spacing: 0.5px;
 }
 #colorlib-aside #colorlib-main-menu ul li a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
   position: relative;
   padding: 10px 0;
@@ -331,7 +330,7 @@ body.offcanvas #colorlib-aside {
   -o-transform: translateX(0);
   transform: translateX(0);
   width: 372px;
-  background: #0f3460;
+  background-color: #f9bf3f;
   z-index: 999;
   position: fixed;
 }
@@ -463,7 +462,7 @@ body.offcanvas .colorlib-nav-toggle {
   position: absolute;
   display: block;
   width: 4px;
-  background: #1a1a2e;
+  background: #f9bf3f;
   top: 20px;
   bottom: 20px;
   margin-left: 29px;
@@ -502,7 +501,7 @@ body.offcanvas .colorlib-nav-toggle {
   .timeline-entry
   .timeline-entry-inner
   .timeline-icon.color-2 {
-  background: #1a1a2e;
+  background: brown;
   color: white;
 }
 .timeline-centered
@@ -517,15 +516,14 @@ body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #f8f9fa;
-  color: #333;
+  background: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63));
+  color: #000;
   padding: 1.2em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
@@ -877,9 +875,9 @@ span {
 }
 
 :root {
-  --footer-bg: linear-gradient(135deg, #1a1a2e, #16213e);
-  --color: #333;
-  --color-smooth: #555;
+  --footer-bg: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63));
+  --color: #000;
+  --color-smooth: #000;
   --input-border: #3a456a;
 }
 
@@ -934,8 +932,8 @@ footer ul {
 }
 
 .brown-badge {
-  background-color: #1a1a2e;
-  border: 1px solid #0f3460;
+  background-color: brown;
+  border: 1px solid #850101;
   color: #fff;
 }
 
@@ -947,15 +945,14 @@ hr {
 }
 
 .repo-card {
-  border-radius: 8px;
+  border-radius: 5px;
   margin: 0;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   flex: 1 0 48%;
-  padding: 15px;
+  padding: 10px;
   font-size: 14px;
-  background: #fff;
-  border: 1px solid #e0e0e0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background: linear-gradient(135deg, #ffdd99, #f9bf3f);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
@@ -1004,9 +1001,8 @@ strong {
   overflow: hidden;
   transition: transform 0.3s ease;
   padding: 16px;
-  background: #fff;
-  border: 1px solid #e0e0e0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63));
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
@@ -1110,19 +1106,18 @@ strong {
 
 .copyright-text {
   text-align: center;
-  color: #666;
+  color: #333;
 }
 
 .profile-card {
   text-decoration: none;
-  color: #333;
+  color: black;
   display: block;
-  border-radius: 8px;
+  border-radius: 5px;
   padding: 12px;
   font-size: 14px;
-  background: #fff;
-  border: 1px solid #e0e0e0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background: linear-gradient(135deg, #ffdd99, #f9bf3f);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;
 }
 
@@ -1283,7 +1278,7 @@ strong {
 }
 
 .trek-height .badge {
-  background: #0f3460;
+  background-color: #f9bf3f;
   color: #000;
   border-radius: 20px;
   padding: 5px 12px;
