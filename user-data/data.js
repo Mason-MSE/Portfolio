@@ -4,6 +4,8 @@ const data = {
     "Previously served as Architect at JD.com, where I led the WQ personalized recommendation platform and customer value assessment projects, building a user profile system covering 1.11 billion Tencent accounts and achieving a 61.79% CTR uplift for Double 11 campaigns.",
     "As Technical Director at Chongwujia (PetHome), I built the online marketplace and supply chain system from scratch, increasing monthly GMV from ¥6 million to ¥20 million and reducing product expiration losses from ¥300,000 to ¥50,000 per month.",
     "Expert in Java, Python, Scala, and JavaScript ecosystems, with deep expertise in Spring Cloud, Dubbo, microservices architecture, big data technologies (Spark, Flink, Hadoop), and container orchestration (Docker, Kubernetes).",
+    "Experienced in machine learning models including XGBoost, GBDT, Logistic Regression, FM, FFM, and deep learning models such as DNN, CNN, DSSM, Wide & Deep, and RNN for recommendation systems and customer value prediction.",
+    "Skilled in feature engineering (numerical features, ID features, embeddings) and user profiling with RFM analysis and clustering algorithms including KNN and collaborative filtering.",
     "Passionate about technology strategy, team leadership, and driving innovation. Currently seeking Technical Director or Architect roles."
   ],
   "skills": [
@@ -21,10 +23,13 @@ const data = {
     "Node.js",
     "MySQL",
     "PostgreSQL",
+    "Oracle",
+    "SQL Server",
     "MongoDB",
     "Redis",
-    "Docker",
-    "Kubernetes",
+    "Elasticsearch",
+    "HBase",
+    "Hive",
     "Hadoop",
     "Spark",
     "Flink",
@@ -33,9 +38,69 @@ const data = {
     "Kafka",
     "MQ",
     "AWS",
-    "Git"
+    "Tencent Cloud",
+    "Alibaba Cloud",
+    "DevOps (Pipeline + Jenkins)",
+    "Git",
+    "Machine Learning",
+    "XGBoost",
+    "GBDT",
+    "Logistic Regression",
+    "FM",
+    "FFM",
+    "Collaborative Filtering",
+    "Matrix Factorization",
+    "User Profiling",
+    "Feature Engineering"
   ],
   "experience": [
+    {
+      "title": "Car Rental Management System (Academic Project)",
+      "duration": "2026.1-2026.2",
+      "subtitle": "Yoobee College - Auckland, New Zealand",
+      "details": [
+        "Developed a full-stack car rental management system with vehicle booking, fleet management, and customer reservation features",
+        "Backend: FastAPI with SQLAlchemy ORM and Pydantic for data validation, MySQL database for persistent storage",
+        "Frontend: Vue.js 3 with Composition API, Vue Router for navigation, and Pinia for state management",
+        "Implemented JWT-based authentication and role-based access control (Admin, Customer)",
+        "Features include vehicle CRUD operations, availability checking, booking workflow, and payment integration mockup",
+        "Implemented RESTful API with proper error handling, input validation, and Swagger documentation"
+      ],
+      "tags": [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "Pydantic",
+        "Vue.js",
+        "MySQL",
+        "JWT",
+        "RESTful API"
+      ],
+      "icon": "car"
+    },
+    {
+      "title": "Housekeeping Service Management System (Academic Project)",
+      "duration": "2026.2-2026.3",
+      "subtitle": "Yoobee College - Auckland, New Zealand",
+      "details": [
+        "Built a comprehensive housekeeping service booking platform connecting customers with cleaning service providers",
+        "Backend: FastAPI framework with SQLAlchemy for database operations, Pydantic models for request/response validation",
+        "Frontend: Vue.js 3 with responsive design, featuring service booking, worker assignment, and schedule management",
+        "Implemented real-time availability management for cleaning staff and service time slots",
+        "Features: customer registration, service selection, booking management, worker dashboard, and admin panel",
+        "Designed clean RESTful API endpoints with proper HTTP status codes and error messages"
+      ],
+      "tags": [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "Pydantic",
+        "Vue.js",
+        "MySQL",
+        "Booking System"
+      ],
+      "icon": "home"
+    },
     {
       "title": "Technical Director",
       "duration": "Dec 2021 - Present",
@@ -76,6 +141,8 @@ const data = {
         "Spark",
         "Flink",
         "Hadoop",
+        "Hive",
+        "HBase",
         "XGBoost",
         "GBDT",
         "User Profiling",
@@ -122,6 +189,8 @@ const data = {
         "Dubbo",
         "ETL",
         "MQ",
+        "Oracle",
+        "SQL Server",
         "Project Management",
         "Architecture Refactoring"
       ],
@@ -144,13 +213,21 @@ const data = {
         "Struts2",
         "MySQL",
         "C#",
-        "SQLServer",
+        "SQL Server",
         "AJAX"
       ],
       "icon": "laptop"
     }
   ],
   "education": [
+    {
+      "title": "Master of Applied Computing (Postgraduate)",
+      "duration": "Nov 2025 - Present",
+      "subtitle": "Yoobee College - Auckland, New Zealand",
+      "details": [],
+      "tags": [],
+      "icon": "graduation-cap"
+    },
     {
       "title": "Bachelor of E-Commerce",
       "duration": "Sep 2002 - Jul 2006",
@@ -163,12 +240,12 @@ const data = {
   "contactLinks": [
     {
       "label": "Email",
-      "link": "mailto:wwwlqc@126.com",
+      "link": "mailto:wwwlqc@gmail.com",
       "icon": "fa fa-envelope"
     },
     {
       "label": "Phone",
-      "link": "tel:+8613718899981",
+      "link": "tel:+64 204232159",
       "icon": "fa fa-phone"
     }
   ],
