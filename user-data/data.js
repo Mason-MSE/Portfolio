@@ -12,6 +12,7 @@ const data = {
     "Java",
     "Python",
     "Scala",
+    "C#",
     "JavaScript",
     "TypeScript",
     "Spring Boot",
@@ -22,6 +23,7 @@ const data = {
     "Vue.js",
     "Node.js",
     "MySQL",
+    "SQLITE"
     "PostgreSQL",
     "Oracle",
     "SQL Server",
@@ -56,7 +58,7 @@ const data = {
   "experience": [
     {
       "title": "Car Rental Management System (Academic Project)",
-      "duration": "2026.1-2026.2",
+      "duration": "Jan 2026-Feb 2026",
       "subtitle": "Yoobee College - Auckland, New Zealand",
       "details": [
         "Developed a full-stack car rental management system with vehicle booking, fleet management, and customer reservation features",
@@ -80,7 +82,7 @@ const data = {
     },
     {
       "title": "Housekeeping Service Management System (Academic Project)",
-      "duration": "2026.2-2026.3",
+      "duration": "Feb 2026- Mar 2026",
       "subtitle": "Yoobee College - Auckland, New Zealand",
       "details": [
         "Built a comprehensive housekeeping service booking platform connecting customers with cleaning service providers",
@@ -103,7 +105,7 @@ const data = {
     },
     {
       "title": "Technical Director",
-      "duration": "Dec 2021 - Present",
+      "duration": "Dec 2021 - Jan 2025",
       "subtitle": "Beijing Haotang Technology Co., Ltd. (PetHome) - Beijing, China",
       "details": [
         "Built online marketplace and offline store sales system from scratch using microservices architecture, covering product management, order processing, marketing campaigns, and payment integration to enable seamless online-offline integration",
