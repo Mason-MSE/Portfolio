@@ -113,7 +113,7 @@ figure figcaption {
   width: 300px;
   position: fixed;
   z-index: 1001;
-  background: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63));
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -128,7 +128,7 @@ figure figcaption {
     -o-transform: translateX(-300px);
     transform: translateX(-300px);
     padding-top: 4em;
-    background-color: #f9bf3f;
+    background: #0f3460;
     height: -webkit-fill-available;
     left: 0px;
   }
@@ -330,7 +330,7 @@ body.offcanvas #colorlib-aside {
   -o-transform: translateX(0);
   transform: translateX(0);
   width: 372px;
-  background-color: #f9bf3f;
+  background: #0f3460;
   z-index: 999;
   position: fixed;
 }
@@ -462,7 +462,7 @@ body.offcanvas .colorlib-nav-toggle {
   position: absolute;
   display: block;
   width: 4px;
-  background: #f9bf3f;
+  background: #1a1a2e;
   top: 20px;
   bottom: 20px;
   margin-left: 29px;
@@ -1278,7 +1278,7 @@ strong {
 }
 
 .trek-height .badge {
-  background-color: #f9bf3f;
+  background: #0f3460;
   color: #000;
   border-radius: 20px;
   padding: 5px 12px;
