@@ -23,7 +23,7 @@ const data = {
     "Vue.js",
     "Node.js",
     "MySQL",
-    "SQLITE"
+    "SQLITE",
     "PostgreSQL",
     "Oracle",
     "SQL Server",
