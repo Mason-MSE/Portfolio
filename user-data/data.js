@@ -1,6 +1,6 @@
 const data = {
   "bio": [
-    "I'm Li Qingchao (李清超), a Frontend Developer with 4+ years of experience building modern web applications.",
+    "I'm Li Qingchao, a Frontend Developer with 4+ years of experience building modern web applications.",
     "Proficient in React, Vue.js, TypeScript, Node.js, Python, and cloud technologies. Currently based in Toronto, ON, Canada.",
     "Experienced in building full-stack applications and passionate about creating performant, user-friendly web experiences."
   ],
