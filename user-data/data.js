@@ -223,7 +223,7 @@ const data = {
   ],
   "education": [
     {
-      "title": "Master of Applied Computing (Postgraduate)",
+      "title": "Master of Software Engineering (Postgraduate)",
       "duration": "Nov 2025 - Present",
       "subtitle": "Yoobee College - Auckland, New Zealand",
       "details": [],
