@@ -57,6 +57,27 @@ const data = {
   ],
   "experience": [
     {
+      "title": "Shared Representation Learning for Heterogeneous Insurance Data",
+      "duration": "Jul 2026 - Oct 2026",
+      "subtitle": "Machine Learning Research Project",
+      "details": [
+        "Developed a PyTorch-based machine learning pipeline to compare unpaired telematics and traditional motor-insurance datasets using shared latent representations",
+        "Implemented autoencoders with MMD alignment and contrastive learning to learn a common latent space across two heterogeneous domains without paired samples",
+        "Applied K-Means clustering on the learned representations to profile policyholder risk segments and evaluate cluster quality",
+        "Ran ablation testing and robustness evaluation to quantify the contribution of each alignment component and test stability under sampling and hyperparameter changes",
+        "Showed that MMD improves cross-domain distribution alignment, while also identifying limitations in cluster stability and insurance relevance"
+      ],
+      "tags": [
+        "Python",
+        "PyTorch",
+        "Pandas",
+        "Scikit-learn",
+        "Machine Learning",
+        "Clustering"
+      ],
+      "icon": "brain"
+    },
+    {
       "title": "Car Rental Management System (Academic Project)",
       "duration": "Jan 2026-Feb 2026",
       "subtitle": "Yoobee College - Auckland, New Zealand",
